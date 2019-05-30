@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: TitleFont;
-    src: url('/supermarket.ttf');
+    src: url('https://stock.gapfocus.com/supermarket.ttf');
     font-weight: bold;
 }
 [class*="col-"] {
@@ -47,7 +47,6 @@ html {
     font-size: 16px;
     color:black;
     background-color: white;
-    background-image: url('/img/searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
