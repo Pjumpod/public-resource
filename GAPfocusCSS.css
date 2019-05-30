@@ -4,7 +4,7 @@
 */
 @font-face {
     font-family: TitleFont;
-    src: url('https://github.com/Pjumpod/public-resource/raw/master/supermarket.ttf');
+    src: url('https://pjumpod.github.io/public-resource/supermarket.ttf');
     font-weight: bold;
 }
 [class*="col-"] {
