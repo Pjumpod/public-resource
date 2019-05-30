@@ -1,7 +1,10 @@
-
+/* 
+    Created on : May 25, 2019, 2:06:59 PM
+    Author     : Jumpod
+*/
 @font-face {
     font-family: TitleFont;
-    src: url('https://stock.gapfocus.com/supermarket.ttf');
+    src: url('https://github.com/Pjumpod/public-resource/raw/master/supermarket.ttf');
     font-weight: bold;
 }
 [class*="col-"] {
