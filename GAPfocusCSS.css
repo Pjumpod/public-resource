@@ -292,7 +292,7 @@ ul.tab li a:hover {
    border-style: solid;
    border-width: 1px;
    border-color: lightgray;   
-   min-height: 180px;   
+   min-height: 200px;   
    margin-bottom: -1px;   
    background-color: white;
 }
@@ -301,10 +301,10 @@ ul.tab li a:hover {
     position :relative;
     margin: 10px;
     margin-right: 20px;
-    top: 0px;
+    top: 10px;
     left: 0px;
-    width: 10%;
-    border-radius: 8px;
+    width: 50px;
+    border-radius: 100px;
 }
 [class*="talk-code"]{   
    display: inline-block;
@@ -315,6 +315,9 @@ ul.tab li a:hover {
    border-radius: 3px;  
    color: white;
    padding: 1px;
+}
+.talk-code0{
+    background-color: rgb(86,169,184);
 }
 .talk-code1{
     background-color: rgb(242,111,111);
@@ -332,6 +335,18 @@ ul.tab li a:hover {
     color:rgb(86,169,184);
     background-color:white;
     font-weight: bold;
+}
+.talk-pdf{
+   display: inline-block;  
+   position :relative;   
+   margin-right: 10px;
+   padding-left: 3px;
+   padding-right: 3px;
+   color: rgb(242,111,111);   
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 5px;   
+   border-color: rgb(242,111,111);
 }
 .talk-detail{
     font-weight:normal;
@@ -392,6 +407,11 @@ ul.tab li a:hover {
     display: block;
     margin-right: 50px;
     margin-top:15px;
+}
+.talk-topright{
+    position :absolute;
+    top: 5px;
+    right: 20px;        
 }
 .talk-date{
     position :absolute;
@@ -747,16 +767,20 @@ sector.info{
     }
     .talk-row{
         width:100%;
-        min-height: 20px;
+        min-height: 200px;
     }
     [class*="talk-code"]{
         font-size: 12px;
     }
     .talk-detail{                
+        width:80%;
         margin-top: 20px;        
         font-size: 14px;
         line-height: 18px;
     }  
+    .talk-topright{
+        font-size: 14px;
+    }
     #menu{
         width: 100%;
     }
