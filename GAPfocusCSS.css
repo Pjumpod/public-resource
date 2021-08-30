@@ -292,7 +292,7 @@ ul.tab li a:hover {
    border-style: solid;
    border-width: 1px;
    border-color: lightgray;   
-   min-height: 120px;   
+   min-height: 180px;   
    margin-bottom: -1px;   
    background-color: white;
 }
@@ -747,7 +747,7 @@ sector.info{
     }
     .talk-row{
         width:100%;
-        min-height: 120px;
+        min-height: 180px;
     }    
     [class*="talk-code"]{
         font-size: 12px;
