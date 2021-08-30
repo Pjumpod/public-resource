@@ -296,19 +296,6 @@ ul.tab li a:hover {
    margin-bottom: -1px;   
    background-color: white;
 }
-.talk-topright{
-   font-weight:normal;
-    min-height: 40px;   
-    position :absolute;
-    display: inline-block;    
-    font-size: 14px;
-    margin-left: 5px;
-    margin-top: 22px;
-    margin-right: 10px;
-    margin-bottom: 10px; 
-    width: 88%;
-    color: rgb(89,89,89);
-}
 .talk-img{
     display: inline-block;
     position :relative;
@@ -761,10 +748,6 @@ sector.info{
     .talk-row{
         width:100%;
         min-height: 20px;
-    }    
-    .talk-topright{
-        width:88%;
-        min-height: 40px;
     }
     [class*="talk-code"]{
         font-size: 12px;
